@@ -52,8 +52,9 @@ This project currently provides a compiled binary for x86-64bit architecture.
 To compile from source, you will need a GCC compiler and Boost libraries installed.
 The makefile is in the project root directory.
 Once you have the prerequsites, simply type
-
-make 
+```
+make
+``` 
 
 in the project directory. That should be it.
 
