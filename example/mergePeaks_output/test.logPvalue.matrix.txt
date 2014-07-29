@@ -1,0 +1,4 @@
+natural log p-values for peak overlaps (+values for divergence), cmd = /mydisk2/home2/pai/Data/Circadian/GSE39860/scripts/mergePeaks -d 120 peak1.bed peak2.bed peak3.bed -prefix /mydisk2/home2/pai/Data/Circadian/GSE39860/scripts/mergedPeaks/test/test -matrix /mydisk2/home2/pai/Data/Circadian/GSE39860/scripts/mergedPeaks/test/test -venn /mydisk2/home2/pai/Data/Circadian/GSE39860/scripts/mergedPeaks/test/test_venn.txt -code	peak1.bed	peak2.bed	peak3.bed
+peak1.bed	-0.000000	-6606.506431	-6677.566565
+peak2.bed	-6665.702497	-0.000000	-6928.673041
+peak3.bed	-6441.840794	-6571.087442	-0.000000

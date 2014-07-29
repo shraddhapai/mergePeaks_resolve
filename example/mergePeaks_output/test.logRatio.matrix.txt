@@ -1,0 +1,4 @@
+natural log ratios of observed/expected peak overlaps, cmd = /mydisk2/home2/pai/Data/Circadian/GSE39860/scripts/mergePeaks -d 120 peak1.bed peak2.bed peak3.bed -prefix /mydisk2/home2/pai/Data/Circadian/GSE39860/scripts/mergedPeaks/test/test -matrix /mydisk2/home2/pai/Data/Circadian/GSE39860/scripts/mergedPeaks/test/test -venn /mydisk2/home2/pai/Data/Circadian/GSE39860/scripts/mergedPeaks/test/test_venn.txt -code	peak1.bed	peak2.bed	peak3.bed
+peak1.bed	0.000000	6.559615	6.568078
+peak2.bed	6.566672	0.000000	6.597146
+peak3.bed	6.539586	6.555357	0.000000
