@@ -1,4 +1,4 @@
-#name (cmd = /mydisk2/home2/pai/Data/Circadian/GSE39860/scripts/mergePeaks -d 120 peak1.bed peak2.bed peak3.bed -prefix /mydisk2/home2/pai/Data/Circadian/GSE39860/scripts/mergedPeaks/test/test -matrix /mydisk2/home2/pai/Data/Circadian/GSE39860/scripts/mergedPeaks/test/test -venn /mydisk2/home2/pai/Data/Circadian/GSE39860/scripts/mergedPeaks/test/test_venn.txt -code)	chr	start	end	strand	Stat	Parent files	Total subpeaks	peak1.bed	peak2.bed	peak3.bed
+#name (cmd = mergePeaks -d 120 peak1.bed peak2.bed peak3.bed -prefix test/test -matrix test/test -venn test/test_venn.txt -code)	chr	start	end	strand	Stat	Parent files	Total subpeaks	peak1.bed	peak2.bed	peak3.bed
 Merged-chr1-3235988-2	chr1	3235927	3236049	+	0.000000	101	2	864_1798_1350		1262_1947_1120
 Merged-chr1-3246935-2	chr1	3246858	3247013	-	0.000000	101	2	240_795_520		1407_316_1193
 Merged-chr1-3236538-2	chr1	3236478	3236599	+	0.000000	101	2	1475_647_925		1368_816_260

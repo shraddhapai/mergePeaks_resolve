@@ -1,4 +1,4 @@
-peak overlap totals, cmd = /mydisk2/home2/pai/Data/Circadian/GSE39860/scripts/mergePeaks -d 120 peak1.bed peak2.bed peak3.bed -prefix /mydisk2/home2/pai/Data/Circadian/GSE39860/scripts/mergedPeaks/test/test -matrix /mydisk2/home2/pai/Data/Circadian/GSE39860/scripts/mergedPeaks/test/test -venn /mydisk2/home2/pai/Data/Circadian/GSE39860/scripts/mergedPeaks/test/test_venn.txt -code	peak1.bed	peak2.bed	peak3.bed
+peak overlap totals, cmd = mergePeaks -d 120 peak1.bed peak2.bed peak3.bed -prefix test/test -matrix test/test -venn test/test_venn.txt -code	peak1.bed	peak2.bed	peak3.bed
 peak1.bed	0	706	712
 peak2.bed	711	0	733
 peak3.bed	692	703	0
