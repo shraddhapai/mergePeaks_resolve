@@ -12,6 +12,8 @@ HOMER contains a utility, mergePeaks, which  "registers" peaks from multiple fil
 mergePeaks output prints a comma-separated list of peak identifiers from each file, without providing the average peak intensity for the registered peaks.
 
 This utility, mergePeaks_resolve, takes the output from HOMER mergePeaks and returns a table with mean peak intensities from registered peaks.
+The resulting table can be used as input for higher-level analysis - e.g. peak-wise analysis to identify unique temporal epigenomic patterns.
+
 
 
 INSTALLING mergePeaks_resolve
