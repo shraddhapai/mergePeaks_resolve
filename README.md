@@ -2,7 +2,9 @@ mergePeaks_resolve
 ==================
 
 A multi-threaded C++ parser to convert output of HOMER's mergePeaks into a table of registered peak intensities
+
 Copyright 2014 Shraddha Pai
+
 Please see LICENSE for details on usage restrictions.
 
 Motivation and background
