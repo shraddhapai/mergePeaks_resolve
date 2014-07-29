@@ -11,7 +11,7 @@ HOMER is a third-party software written by Chris Benner and others, which is rou
 HOMER contains a utility, mergePeaks, which  "registers" peaks from multiple files part of the same experiment; for example, to find overlapping peaks for individual timepoints in a timecourse experiment. For details on mergePeaks see: http://homer.salk.edu/homer/ngs/mergePeaks.html
 mergePeaks output prints a comma-separated list of peak identifiers from each file, without providing the average peak intensity for the registered peaks. Note the peak identifiers in the last three columns of this sample output:
 
-< begin snippet of mergePeaks output >
+```
 #name (cmd = mergePeaks -d 120 peak1.bed peak2.bed peak3.bed -prefix test/test -matrix test/test -venn test/test_venn.txt -code)        chr     start   end     strand  Stat   
  Parent files    Total subpeaks  peak1.bed       peak2.bed       peak3.bed
 Merged-chr1-3114752-4   chr1    3114586 3114893 -       0.000000        111     4       1634_1724_913,810_1010_922      1116_272_2024   140_551_92
@@ -22,11 +22,11 @@ Merged-chr1-3076578-6   chr1    3076463 3076720 +       0.000000        111     
 Merged-chr1-3167519-33  chr1    3167073 3168007 -       0.000000        111     33      350_1252_534,2068_1182_748,2084_1324_1160,1920_1354_523,1779_442_995,1653_380_408,1102_1616_240,535_323_460,2243_248_673,572_1606_988   1515_725_1918,1798_1831_886,1690_697_1865,182_72_2009,327_674_1399,1154_864_1932,1881_1066_1491,521_200_1489,1125_1648_717,1551_1665_1236,1685_943_1106,1957_2028_1082,229_1809_1592    1758_613_276,927_1193_1492,420_1696_1053,1603_166_1782,1175_1879_1295,815_295_1527,147_1034_529,236_1102_1222,2147_1151_1450,1622_1152_466   
 Merged-chr1-3093741-8   chr1    3093556 3093940 +       0.000000        111     8       2204_818_1206,721_1086_509      1323_261_882,2087_81_1673       1020_830_1468,841_329_1875,973_265_108,2114_1844_1328  
 Merged-chr1-3119632-3   chr1    3119557 3119723 +       0.000000        111     3       1156_567_92     329_295_991     1842_917_767
-< end snippet >
+```
 
 The current utility, mergePeaks_resolve, takes the output from HOMER mergePeaks and returns a table with mean peak intensities from registered peaks.
 
-< begin snippet of mergePeaks_resolve output >
+```
 chrom   start   end     peak1.bed       peak2.bed       peak3.bed
 chr1    3114586 3114893 42      50      58  
 chr1    3202344 3202964 58      50.6667 56.1667
@@ -36,7 +36,7 @@ chr1    3076463 3076720 58      54.3333 58
 chr1    3167073 3168007 51.4    56.3077 51.8
 chr1    3093556 3093940 56      58      52.5
 chr1    3119557 3119723 32      58      58  
-< end snippet >
+```
 
 The resulting table can be used as input for higher-level analysis - e.g. peak-wise analysis to identify unique temporal epigenomic patterns.
 
